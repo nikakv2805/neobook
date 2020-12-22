@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: #a16609;
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    padding: 10px;
+}
+
+.log {
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+
+input[type=search] {
+    background: url(..images/5_05.png);
+    background-color:#ffdead;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    text-decoration-color: #a16609;
+    padding: 5px 10px;
+    border: 2px solid #f4a460;
+    border-radius: 15px;
+    font-size: 16px;
+}
+
+
+
+.menu{
+    background-color: #f4a460;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+.menu>li{
+    width: 100%;
+}
+.menuHeader a{
+    color: #ffdead;
+    text-decoration: navajowhite;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1em;
+}
+
+.sMenu {
+    color: #a16609;
+    text-decoration: #a16609;
+    visibility: hidden;
+    position: absolute;
+    background: #ffdead ;
+    list-style: none;
+    width: auto;
+    max-width: 300px;
+    min-width: 200px;
+    opacity: 0;
+    transition: all 1s ease-out 0.25s;
+}
+
+.sMenu a{
+    color: #a16609;
+    text-decoration: #a16609;
+}
+
+.menu>li:hover .sMenu{
+    visibility: visible;
+    color: #a16609;
+    opacity: 1;
+}
+
+.mainContent{
+    background-color: #ffdead;
+}
+
+footer{
+    background-color: #a16609;
+}

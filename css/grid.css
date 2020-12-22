@@ -1,0 +1,46 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    min-width: 600px;
+}
+
+.header{
+    position: sticky;
+    width: 100%;
+}
+
+.mainHeader{
+    margin: 0px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.menuHeader{
+    margin: 0px;
+    position: relative;
+    flex-wrap: nowrap;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.orderBooks {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.acc-item {
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
